@@ -1,4 +1,7 @@
 .idea/
-.SolutionItems
+bin/
+obj/
+SolutionItems/
+stylecop.json
 
 !.gitignore
