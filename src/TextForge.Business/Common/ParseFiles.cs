@@ -24,13 +24,9 @@ public class ParseFiles
         try
         {
             var finalResult = GetDirectoryExpressions.GetFinalResultTxtPath();
-            string content;
-            string parsedContent;
 
-            foreach (var file in _files)
+            foreach (var parsedContent in _files.Select(File.ReadAllText).Select(ParseContentFile.ParseContent))
             {
-                content = File.ReadAllText(file);
-                parsedContent = ParseContentFile.ParseContent(content);
                 File.AppendAllText(finalResult, parsedContent);
             }
         }
