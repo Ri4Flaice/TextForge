@@ -1,4 +1,6 @@
-﻿namespace TextForge.Business.Common;
+﻿using TextForge.Core;
+
+namespace TextForge.Business.Common;
 
 /// <summary>
 /// Parse files in directory.
@@ -32,7 +34,8 @@ public class ParseFiles
         }
         catch (Exception e)
         {
-            Console.WriteLine(e);
+            var logs = new Logs(e, nameof(Errors.TF0500), Errors.TF0500);
+            logs.WriteErrorInLogs();
             throw;
         }
     }

@@ -1,4 +1,6 @@
-﻿namespace TextForge.Business.Common;
+﻿using TextForge.Core;
+
+namespace TextForge.Business.Common;
 
 /// <summary>
 /// Get all files with .srt.
@@ -15,11 +17,19 @@ public static class GetFiles
         try
         {
             var files = Directory.GetFiles(pathDirectory, "*.srt", SearchOption.AllDirectories).ToList();
+
+            if (files.Count == 0)
+            {
+                var logs = new Logs(nameof(Errors.TF0404), Errors.TF0404);
+                logs.WriteErrorInLogs();
+            }
+
             return files;
         }
         catch (Exception e)
         {
-            Console.WriteLine(e);
+            var logs = new Logs(e, nameof(Errors.TF0500), Errors.TF0500);
+            logs.WriteErrorInLogs();
             throw;
         }
     }
