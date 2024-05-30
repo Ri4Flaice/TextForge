@@ -3,7 +3,7 @@
 namespace TextForge.Business;
 
 /// <summary>
-/// Get directory for tests.
+/// Get directory(file) for tests.
 /// </summary>
 public static class GetDirectoryExpressions
 {
@@ -25,5 +25,29 @@ public static class GetDirectoryExpressions
         var directoryPath = Path.Combine(outputPath, resourcesDirectory ?? "Resources");
 
         return directoryPath;
+    }
+
+    /// <summary>
+    /// Get file path for tests.
+    /// </summary>
+    /// <returns>File path.</returns>
+    public static string GetFinalResultTxtPath()
+    {
+        var assembly = Assembly.GetExecutingAssembly();
+        var outputPath = Path.GetDirectoryName(assembly.Location);
+
+        if (outputPath == null)
+        {
+            return string.Empty;
+        }
+
+        var finalResultPath = Path.Combine(outputPath, "finalResult.txt");
+
+        if (!File.Exists(finalResultPath))
+        {
+            File.Create(finalResultPath).Dispose();
+        }
+
+        return finalResultPath;
     }
 }
