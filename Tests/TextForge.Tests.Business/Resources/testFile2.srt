@@ -1,0 +1,1420 @@
+1
+00:00:00,04 --> 00:00:04,03
+- [Instructor] We're staying in our Geometry.DWG file
+
+2
+00:00:04,03 --> 00:00:07,03
+and we're going to take a look at polylines,
+
+3
+00:00:07,03 --> 00:00:10,02
+polygons and splines.
+
+4
+00:00:10,02 --> 00:00:12,05
+A polyline is a group of lines
+
+5
+00:00:12,05 --> 00:00:14,09
+joined together to form one object.
+
+6
+00:00:14,09 --> 00:00:17,04
+A polygon is a multi-sided shape
+
+7
+00:00:17,04 --> 00:00:21,01
+and a spline is an irregular curve in AutoCAD.
+
+8
+00:00:21,01 --> 00:00:22,08
+And we're going to work through
+
+9
+00:00:22,08 --> 00:00:26,03
+each of those commands to see how they work within AutoCAD.
+
+10
+00:00:26,03 --> 00:00:28,00
+We're also going to work with a couple of other commands,
+
+11
+00:00:28,00 --> 00:00:30,00
+but you'll see that as we go as well,
+
+12
+00:00:30,00 --> 00:00:31,04
+because often what happens
+
+13
+00:00:31,04 --> 00:00:33,09
+is you work with one particular command in AutoCAD
+
+14
+00:00:33,09 --> 00:00:35,06
+and then you might work with another one
+
+15
+00:00:35,06 --> 00:00:36,09
+just to update something
+
+16
+00:00:36,09 --> 00:00:40,08
+with that particular geometrical object that you've created.
+
+17
+00:00:40,08 --> 00:00:42,05
+I'm going to roll back on the wheel
+
+18
+00:00:42,05 --> 00:00:46,05
+a couple of notches like so and just pan down a little bit.
+
+19
+00:00:46,05 --> 00:00:48,08
+So you'll notice we've got a bit of space here
+
+20
+00:00:48,08 --> 00:00:51,09
+in this area where we created this table
+
+21
+00:00:51,09 --> 00:00:54,01
+with the two circular inserts there.
+
+22
+00:00:54,01 --> 00:00:56,05
+So I'd like you to zoom in on that area
+
+23
+00:00:56,05 --> 00:00:58,08
+just above your table there like so.
+
+24
+00:00:58,08 --> 00:01:01,00
+So you've got a bit of space here.
+
+25
+00:01:01,00 --> 00:01:04,07
+Make sure you're still using the FFE furniture layer,
+
+26
+00:01:04,07 --> 00:01:07,05
+that one there, A700_M_FFE.
+
+27
+00:01:07,05 --> 00:01:10,05
+And then we're going to go to the Home tab on the ribbon
+
+28
+00:01:10,05 --> 00:01:12,01
+and we're going to go to the Draw panel
+
+29
+00:01:12,01 --> 00:01:15,09
+and we're going to click on this Polyline command here like so.
+
+30
+00:01:15,09 --> 00:01:17,03
+We come into the drawing area
+
+31
+00:01:17,03 --> 00:01:21,05
+and the dynamic input prompts us for a start point
+
+32
+00:01:21,05 --> 00:01:24,00
+just like the Line command.
+
+33
+00:01:24,00 --> 00:01:27,02
+Now hopefully, down here on the status bar,
+
+34
+00:01:27,02 --> 00:01:29,07
+you've still got your polar tracking running
+
+35
+00:01:29,07 --> 00:01:32,04
+and set at your 90 degrees
+
+36
+00:01:32,04 --> 00:01:35,00
+and you've still got your object snap tracking
+
+37
+00:01:35,00 --> 00:01:36,06
+and your object snaps on as well.
+
+38
+00:01:36,06 --> 00:01:37,07
+They should all still be the same
+
+39
+00:01:37,07 --> 00:01:39,09
+if you haven't made any changes.
+
+40
+00:01:39,09 --> 00:01:41,04
+Now I'm going to click about here,
+
+41
+00:01:41,04 --> 00:01:44,00
+click once and I'm going to drag upwards.
+
+42
+00:01:44,00 --> 00:01:47,09
+Now just like the Line command with the polar tracking,
+
+43
+00:01:47,09 --> 00:01:49,09
+you'll see there that I can drag upwards
+
+44
+00:01:49,09 --> 00:01:51,07
+and I can get that polar tracking line
+
+45
+00:01:51,07 --> 00:01:54,00
+kicking and going vertically like so.
+
+46
+00:01:54,00 --> 00:01:54,08
+So with that there,
+
+47
+00:01:54,08 --> 00:01:59,04
+I'm going to type in my 1500 and press Enter.
+
+48
+00:01:59,04 --> 00:02:01,04
+And that gives me that vertical segment.
+
+49
+00:02:01,04 --> 00:02:03,04
+Remember when we did this with the Line command?
+
+50
+00:02:03,04 --> 00:02:06,07
+Now we're doing this this time with the Polyline command.
+
+51
+00:02:06,07 --> 00:02:08,06
+So I'm going to drag across to the right now.
+
+52
+00:02:08,06 --> 00:02:11,08
+There's the right hand polar tracking line kicking in.
+
+53
+00:02:11,08 --> 00:02:15,00
+And again I'm going to do the 2500,
+
+54
+00:02:15,00 --> 00:02:17,01
+which you'll remember from previous videos.
+
+55
+00:02:17,01 --> 00:02:19,02
+So that gives us that horizontal part
+
+56
+00:02:19,02 --> 00:02:21,09
+of our new table that we're creating.
+
+57
+00:02:21,09 --> 00:02:23,09
+I come vertically down again
+
+58
+00:02:23,09 --> 00:02:25,07
+and again with the polar tracking,
+
+59
+00:02:25,07 --> 00:02:29,02
+I type in the 1500 and press Enter.
+
+60
+00:02:29,02 --> 00:02:31,02
+And just like with the Line command,
+
+61
+00:02:31,02 --> 00:02:35,06
+I can now right click and I can close.
+
+62
+00:02:35,06 --> 00:02:37,01
+So you'll note that that looks
+
+63
+00:02:37,01 --> 00:02:39,00
+just like other tables that we've drawn
+
+64
+00:02:39,00 --> 00:02:43,02
+but using the Line command rather than the Polyline command.
+
+65
+00:02:43,02 --> 00:02:46,04
+So what's the difference between a table of that shape,
+
+66
+00:02:46,04 --> 00:02:50,06
+a rectangular table but using the Polyline command?
+
+67
+00:02:50,06 --> 00:02:54,06
+Well, the Polyline command converts it to all one object.
+
+68
+00:02:54,06 --> 00:02:55,08
+So if I click on that now,
+
+69
+00:02:55,08 --> 00:02:59,04
+can you see it's all one object instead of four lines?
+
+70
+00:02:59,04 --> 00:03:02,00
+If I hover over it, you'll notice there, if I hover there,
+
+71
+00:03:02,00 --> 00:03:05,02
+it's a polyline on that particular layer.
+
+72
+00:03:05,02 --> 00:03:07,07
+I'll hit Escape there just to deselect it.
+
+73
+00:03:07,07 --> 00:03:11,00
+So what you've seen there now is three different methods
+
+74
+00:03:11,00 --> 00:03:13,03
+of creating that rectangular table.
+
+75
+00:03:13,03 --> 00:03:15,04
+Initially we use the Rectangle command,
+
+76
+00:03:15,04 --> 00:03:18,03
+then we use four lines with the polar tracking.
+
+77
+00:03:18,03 --> 00:03:20,07
+And this time, we've used the Polyline command
+
+78
+00:03:20,07 --> 00:03:22,04
+with the polar tracking.
+
+79
+00:03:22,04 --> 00:03:23,07
+So three different ways
+
+80
+00:03:23,07 --> 00:03:27,03
+to create a similar geometrical object.
+
+81
+00:03:27,03 --> 00:03:31,02
+We're going to zoom in a little now on the rectangular table
+
+82
+00:03:31,02 --> 00:03:33,01
+and I'm going to make sure it fills the screen like that
+
+83
+00:03:33,01 --> 00:03:36,02
+'cause I want you to see what I'm doing for the next bit.
+
+84
+00:03:36,02 --> 00:03:37,09
+There's quite a few object snaps
+
+85
+00:03:37,09 --> 00:03:39,06
+that we're going to be working with.
+
+86
+00:03:39,06 --> 00:03:42,06
+Now I'm going to create a circle first.
+
+87
+00:03:42,06 --> 00:03:45,09
+So staying on the same layer, Draw panel again,
+
+88
+00:03:45,09 --> 00:03:47,08
+click on the flyout for the circle
+
+89
+00:03:47,08 --> 00:03:50,07
+and you want Center Radius.
+
+90
+00:03:50,07 --> 00:03:54,03
+Click on Center Radius and come back into the drawing area.
+
+91
+00:03:54,03 --> 00:03:56,04
+Now you'll remember in previous videos,
+
+92
+00:03:56,04 --> 00:03:58,06
+we used our object snap tracking,
+
+93
+00:03:58,06 --> 00:04:01,03
+our O track or auto snap is it's name.
+
+94
+00:04:01,03 --> 00:04:02,09
+And what I'm going to do,
+
+95
+00:04:02,09 --> 00:04:04,05
+I'm going to hover here over this midpoint snap.
+
+96
+00:04:04,05 --> 00:04:07,06
+Remember, do not click.
+
+97
+00:04:07,06 --> 00:04:10,03
+I'm then going to hover here over this midpoint snap,
+
+98
+00:04:10,03 --> 00:04:13,02
+and again, I'm not going to click.
+
+99
+00:04:13,02 --> 00:04:15,09
+As I drag down, you'll see the intersection
+
+100
+00:04:15,09 --> 00:04:18,04
+between the two polar tracking lines.
+
+101
+00:04:18,04 --> 00:04:21,08
+Then left click and there's the center of your circle
+
+102
+00:04:21,08 --> 00:04:24,06
+at the intersection of those two midpoints.
+
+103
+00:04:24,06 --> 00:04:27,08
+Now the radius of the circle this time is going to be 600.
+
+104
+00:04:27,08 --> 00:04:30,09
+Type in a radius of 600 and press Enter.
+
+105
+00:04:30,09 --> 00:04:32,05
+And there's our circle.
+
+106
+00:04:32,05 --> 00:04:34,04
+Now the reason I've drawn a circle
+
+107
+00:04:34,04 --> 00:04:36,07
+is because I want to take you to the next command
+
+108
+00:04:36,07 --> 00:04:38,08
+that we're going to look at in this particular video,
+
+109
+00:04:38,08 --> 00:04:41,08
+which is the Polygon command.
+
+110
+00:04:41,08 --> 00:04:45,05
+Now the Polygon command is incredibly useful.
+
+111
+00:04:45,05 --> 00:04:48,06
+You can create polygons, multi-sided shapes,
+
+112
+00:04:48,06 --> 00:04:53,07
+from three sides all the way up to 1,024 sides.
+
+113
+00:04:53,07 --> 00:04:57,03
+Now I don't know what a 1,024 sided polygon is called.
+
+114
+00:04:57,03 --> 00:04:59,03
+You might need to check the internet for that.
+
+115
+00:04:59,03 --> 00:05:02,06
+The most I've gone to is 12 sides, a dodecahedron.
+
+116
+00:05:02,06 --> 00:05:05,00
+So let's have a look at this Polygon command.
+
+117
+00:05:05,00 --> 00:05:06,07
+It's up here on the Draw panel,
+
+118
+00:05:06,07 --> 00:05:09,09
+and you'll remember there's a little flyout command there
+
+119
+00:05:09,09 --> 00:05:12,08
+next to the Rectangle command.
+
+120
+00:05:12,08 --> 00:05:16,02
+So that flyout command or flyout triangle,
+
+121
+00:05:16,02 --> 00:05:18,06
+flyout menu, whatever you want to call it,
+
+122
+00:05:18,06 --> 00:05:20,08
+shows us two different commands there.
+
+123
+00:05:20,08 --> 00:05:23,07
+You want Polygon this time on that little menu.
+
+124
+00:05:23,07 --> 00:05:26,01
+And then it asks for the number of sides.
+
+125
+00:05:26,01 --> 00:05:30,03
+Hexagon is six sides, so we type in six and press Enter.
+
+126
+00:05:30,03 --> 00:05:32,03
+Now there are three types of polygon.
+
+127
+00:05:32,03 --> 00:05:36,03
+You've got inscribed, circumscribed and edge.
+
+128
+00:05:36,03 --> 00:05:38,08
+You can see edge there on the command line.
+
+129
+00:05:38,08 --> 00:05:42,00
+It also appears on the shortcut menu if you right click.
+
+130
+00:05:42,00 --> 00:05:44,07
+An edge polygon purely takes the distance
+
+131
+00:05:44,07 --> 00:05:47,04
+between two points and makes it the length
+
+132
+00:05:47,04 --> 00:05:49,05
+of one of the sides of your polygon.
+
+133
+00:05:49,05 --> 00:05:50,07
+Now we're not going to do that one.
+
+134
+00:05:50,07 --> 00:05:52,07
+We're going to use inscribed initially.
+
+135
+00:05:52,07 --> 00:05:54,07
+So we want the center of our polygon.
+
+136
+00:05:54,07 --> 00:05:56,06
+As per the prompt there
+
+137
+00:05:56,06 --> 00:05:58,02
+with the the dynamic input on the screen,
+
+138
+00:05:58,02 --> 00:06:00,05
+I'm going to hover over the edge of the circle.
+
+139
+00:06:00,05 --> 00:06:02,02
+You'll see the center snap appear
+
+140
+00:06:02,02 --> 00:06:04,03
+because we've got that object snap switched on.
+
+141
+00:06:04,03 --> 00:06:06,04
+Or you can just come into the center of the circle
+
+142
+00:06:06,04 --> 00:06:08,00
+and there's the center snap again.
+
+143
+00:06:08,00 --> 00:06:10,02
+Left click on the center snap
+
+144
+00:06:10,02 --> 00:06:13,05
+and it now gives you the option of Inscribed In Circle
+
+145
+00:06:13,05 --> 00:06:15,07
+or Circumscribed About Circle.
+
+146
+00:06:15,07 --> 00:06:18,07
+We're going to use Inscribed initially like so
+
+147
+00:06:18,07 --> 00:06:20,09
+and there's my hexagon.
+
+148
+00:06:20,09 --> 00:06:23,00
+Now as I come vertically upwards,
+
+149
+00:06:23,00 --> 00:06:24,06
+you'll see that I can utilize
+
+150
+00:06:24,06 --> 00:06:26,09
+my vertical polar tracking line,
+
+151
+00:06:26,09 --> 00:06:28,05
+or I could go to the right
+
+152
+00:06:28,05 --> 00:06:31,01
+and use a horizontal polar tracking line.
+
+153
+00:06:31,01 --> 00:06:33,02
+Don't go off like this or at a weird angle
+
+154
+00:06:33,02 --> 00:06:35,06
+'cause then your hexagon doesn't look quite right.
+
+155
+00:06:35,06 --> 00:06:37,01
+I'm going to go for vertical
+
+156
+00:06:37,01 --> 00:06:39,06
+and left click on that intersection there
+
+157
+00:06:39,06 --> 00:06:41,04
+with my polar tracking line.
+
+158
+00:06:41,04 --> 00:06:46,07
+And now we've got a nice hexagonal insert in my table.
+
+159
+00:06:46,07 --> 00:06:48,03
+Now that's a hexagonal insert
+
+160
+00:06:48,03 --> 00:06:52,07
+that is inside the circle, hence the term inscribed.
+
+161
+00:06:52,07 --> 00:06:54,09
+You might want it outside the circle,
+
+162
+00:06:54,09 --> 00:06:56,07
+which is known as circumscribed.
+
+163
+00:06:56,07 --> 00:06:59,04
+So let's delete that particular hexagon like so.
+
+164
+00:06:59,04 --> 00:07:00,09
+I'll click on it like so.
+
+165
+00:07:00,09 --> 00:07:02,08
+Now if you hover over a hexagon,
+
+166
+00:07:02,08 --> 00:07:05,01
+you'll notice you might get this weird little menu here.
+
+167
+00:07:05,01 --> 00:07:06,04
+This is all to do with grips
+
+168
+00:07:06,04 --> 00:07:08,00
+and vertices and things like that.
+
+169
+00:07:08,00 --> 00:07:09,03
+You can ignore that.
+
+170
+00:07:09,03 --> 00:07:11,04
+Just move away from any of the grips,
+
+171
+00:07:11,04 --> 00:07:14,02
+right click and select Erase.
+
+172
+00:07:14,02 --> 00:07:15,09
+Now what you can do as well
+
+173
+00:07:15,09 --> 00:07:18,03
+is you can in AutoCAD right click
+
+174
+00:07:18,03 --> 00:07:20,07
+and go back to Recent Input.
+
+175
+00:07:20,07 --> 00:07:22,09
+And you'll notice Polygon is on the list there,
+
+176
+00:07:22,09 --> 00:07:24,03
+so I can select it there
+
+177
+00:07:24,03 --> 00:07:26,08
+instead of going up to the ribbon if you want to.
+
+178
+00:07:26,08 --> 00:07:28,09
+Click on Polygon, number of sides is six,
+
+179
+00:07:28,09 --> 00:07:30,04
+it's remembered that from last time.
+
+180
+00:07:30,04 --> 00:07:33,02
+So I'll just press Enter to confirm the six.
+
+181
+00:07:33,02 --> 00:07:36,00
+I'll go back to the center snap, touch on the circle.
+
+182
+00:07:36,00 --> 00:07:38,00
+There's the center snap.
+
+183
+00:07:38,00 --> 00:07:39,04
+Left click on the center snap,
+
+184
+00:07:39,04 --> 00:07:42,00
+and this time I'm going to go Circumscribed.
+
+185
+00:07:42,00 --> 00:07:43,08
+So if I go vertically upwards this time,
+
+186
+00:07:43,08 --> 00:07:46,01
+can you see when I get that intersection there
+
+187
+00:07:46,01 --> 00:07:47,06
+with the polar tracking,
+
+188
+00:07:47,06 --> 00:07:50,04
+can you see the hexagon is outside the circle,
+
+189
+00:07:50,04 --> 00:07:53,01
+circumscribed about the circle?
+
+190
+00:07:53,01 --> 00:07:55,06
+And if I click, you can see there the hexagon
+
+191
+00:07:55,06 --> 00:07:58,03
+is a bit bigger than the circle this time.
+
+192
+00:07:58,03 --> 00:08:00,02
+So if you're happy with that, again,
+
+193
+00:08:00,02 --> 00:08:03,04
+you could have gone to the right using the horizontal snap
+
+194
+00:08:03,04 --> 00:08:06,04
+on the circle here if you wanted to going that way.
+
+195
+00:08:06,04 --> 00:08:09,02
+It's entirely up to you which way you go.
+
+196
+00:08:09,02 --> 00:08:11,05
+What I'm going to do now is select the circle,
+
+197
+00:08:11,05 --> 00:08:15,01
+don't need it anymore, right click, Erase.
+
+198
+00:08:15,01 --> 00:08:16,04
+So zoom out slightly now,
+
+199
+00:08:16,04 --> 00:08:18,09
+you can see I've got a nice polyline
+
+200
+00:08:18,09 --> 00:08:21,03
+forming the rectangular table
+
+201
+00:08:21,03 --> 00:08:23,07
+and there's my hexagonal insert
+
+202
+00:08:23,07 --> 00:08:26,04
+formed by, again, a polyline,
+
+203
+00:08:26,04 --> 00:08:29,09
+but using the Polygon command.
+
+204
+00:08:29,09 --> 00:08:33,05
+If I just roll back a bit now and pan across,
+
+205
+00:08:33,05 --> 00:08:35,02
+you'll notice, up here,
+
+206
+00:08:35,02 --> 00:08:37,05
+can you see we've got a green wall?
+
+207
+00:08:37,05 --> 00:08:40,02
+So you want to go past this column here
+
+208
+00:08:40,02 --> 00:08:42,01
+and past this group of four chairs
+
+209
+00:08:42,01 --> 00:08:44,00
+of the little coffee table.
+
+210
+00:08:44,00 --> 00:08:46,02
+You want to see this little corner of the wall here.
+
+211
+00:08:46,02 --> 00:08:48,07
+So there's our table we've just created.
+
+212
+00:08:48,07 --> 00:08:50,01
+It's up there,
+
+213
+00:08:50,01 --> 00:08:51,08
+sort of upwards to the right.
+
+214
+00:08:51,08 --> 00:08:53,07
+Zoom in a bit,
+
+215
+00:08:53,07 --> 00:08:55,06
+pan across a bit like that.
+
+216
+00:08:55,06 --> 00:08:58,01
+And as you can see, we've got some space there
+
+217
+00:08:58,01 --> 00:09:00,01
+above these tables and chairs.
+
+218
+00:09:00,01 --> 00:09:02,00
+And we're going to take a look now
+
+219
+00:09:02,00 --> 00:09:05,01
+at creating what is known as a spline.
+
+220
+00:09:05,01 --> 00:09:07,09
+Now don't worry about the layer this is going to go on.
+
+221
+00:09:07,09 --> 00:09:09,01
+It's going to be a wall, obviously.
+
+222
+00:09:09,01 --> 00:09:10,08
+It's not going to be a piece of furniture.
+
+223
+00:09:10,08 --> 00:09:12,08
+We can use a thing called Match Properties
+
+224
+00:09:12,08 --> 00:09:14,03
+to tweak that later.
+
+225
+00:09:14,03 --> 00:09:16,02
+Don't worry, we'll do that in a minute.
+
+226
+00:09:16,02 --> 00:09:18,03
+What I want you to do is go up here
+
+227
+00:09:18,03 --> 00:09:21,01
+to Measure on the Utilities panel.
+
+228
+00:09:21,01 --> 00:09:22,04
+It's on the Home tab on the ribbon,
+
+229
+00:09:22,04 --> 00:09:25,08
+so click on the flyout and go to Distance.
+
+230
+00:09:25,08 --> 00:09:29,02
+Click on Distance and zoom in on this corner a bit
+
+231
+00:09:29,02 --> 00:09:32,03
+and click on the little internal corner there
+
+232
+00:09:32,03 --> 00:09:34,06
+and come vertically up very gently.
+
+233
+00:09:34,06 --> 00:09:36,09
+And you'll see an intersection there like so.
+
+234
+00:09:36,09 --> 00:09:38,08
+When you click on that intersection,
+
+235
+00:09:38,08 --> 00:09:41,03
+it tells you the thickness of that wall,
+
+236
+00:09:41,03 --> 00:09:44,09
+which is 120.65 millimeters.
+
+237
+00:09:44,09 --> 00:09:45,08
+I think what we'll do,
+
+238
+00:09:45,08 --> 00:09:49,02
+we'll just leave that as 120 millimeters for now.
+
+239
+00:09:49,02 --> 00:09:50,05
+So I'm just going to click on Exit
+
+240
+00:09:50,05 --> 00:09:52,06
+to exit the Distance command.
+
+241
+00:09:52,06 --> 00:09:54,00
+So we know that our wall thickness
+
+242
+00:09:54,00 --> 00:09:58,01
+needs to be 120 millimeters in this particular case.
+
+243
+00:09:58,01 --> 00:10:00,07
+Now we're going to create a nice curvy wall
+
+244
+00:10:00,07 --> 00:10:03,03
+using the Spline command.
+
+245
+00:10:03,03 --> 00:10:07,02
+Now a spline in AutoCAD is an irregular curve
+
+246
+00:10:07,02 --> 00:10:10,04
+and it's using what they call NURBS technology,
+
+247
+00:10:10,04 --> 00:10:15,03
+N-U-R-B-S, non-uniform rational B spline.
+
+248
+00:10:15,03 --> 00:10:19,05
+And all it's using is a particular mathematical iteration
+
+249
+00:10:19,05 --> 00:10:21,07
+to create that irregular curve
+
+250
+00:10:21,07 --> 00:10:25,01
+based on the points that you click on in the drawing area.
+
+251
+00:10:25,01 --> 00:10:27,03
+Now it does sound really complicated.
+
+252
+00:10:27,03 --> 00:10:29,03
+It's not when you do it visually.
+
+253
+00:10:29,03 --> 00:10:30,09
+Let me show you what I mean.
+
+254
+00:10:30,09 --> 00:10:32,07
+I'm going to go to the Home tab on the ribbon again
+
+255
+00:10:32,07 --> 00:10:34,02
+and into the Draw panel.
+
+256
+00:10:34,02 --> 00:10:36,05
+I'm going to click on the little flyout here
+
+257
+00:10:36,05 --> 00:10:40,00
+and pin open the extra icons on the Draw panel.
+
+258
+00:10:40,00 --> 00:10:43,08
+Remember I showed you that in the interface for AutoCAD?
+
+259
+00:10:43,08 --> 00:10:45,05
+So now we've got those extra commands,
+
+260
+00:10:45,05 --> 00:10:48,00
+you can see we've got some curvy ones just here.
+
+261
+00:10:48,00 --> 00:10:50,07
+So you'll notice there I've got Spline Fit
+
+262
+00:10:50,07 --> 00:10:53,04
+and I've also got Spline CV.
+
+263
+00:10:53,04 --> 00:10:55,07
+That draws a spline with control vertices.
+
+264
+00:10:55,07 --> 00:11:00,03
+Spline Fit just draws a spline with points, fit points.
+
+265
+00:11:00,03 --> 00:11:03,07
+So that's the one we're going to click on, Spline Fit.
+
+266
+00:11:03,07 --> 00:11:05,05
+Come into the drawing area
+
+267
+00:11:05,05 --> 00:11:08,04
+and it asks you to specify the first point.
+
+268
+00:11:08,04 --> 00:11:10,04
+Now this is very simple to do
+
+269
+00:11:10,04 --> 00:11:12,07
+and it doesn't have to be exact either.
+
+270
+00:11:12,07 --> 00:11:14,04
+Can be a little bit abstract this time.
+
+271
+00:11:14,04 --> 00:11:16,03
+We're creating a curvy wall,
+
+272
+00:11:16,03 --> 00:11:18,06
+a bit of an artistic type wall
+
+273
+00:11:18,06 --> 00:11:22,02
+that separates the atrium entrance reception area
+
+274
+00:11:22,02 --> 00:11:24,02
+of the building from the offices
+
+275
+00:11:24,02 --> 00:11:25,09
+in the top part of the floor plan.
+
+276
+00:11:25,09 --> 00:11:28,06
+And you'll see what I mean when we zoom out in a minute.
+
+277
+00:11:28,06 --> 00:11:29,09
+But the first point is going to be
+
+278
+00:11:29,09 --> 00:11:31,05
+this little corner of the wall here.
+
+279
+00:11:31,05 --> 00:11:34,05
+You'll get an endpoint snap, left click
+
+280
+00:11:34,05 --> 00:11:36,07
+and then you're going to go up, click,
+
+281
+00:11:36,07 --> 00:11:40,00
+and down, click and up, click,
+
+282
+00:11:40,00 --> 00:11:43,03
+and down, click, and then up one more time
+
+283
+00:11:43,03 --> 00:11:45,07
+and I'm going to click again there like so.
+
+284
+00:11:45,07 --> 00:11:47,03
+I then press Enter
+
+285
+00:11:47,03 --> 00:11:52,01
+and that draws my nice curvy spline fit.
+
+286
+00:11:52,01 --> 00:11:54,03
+Now if I zoom out a bit now,
+
+287
+00:11:54,03 --> 00:11:56,00
+you'll see that we're kind of putting
+
+288
+00:11:56,00 --> 00:11:57,06
+a separation wall there,
+
+289
+00:11:57,06 --> 00:12:00,08
+because we've got a staircase, we've got some restrooms
+
+290
+00:12:00,08 --> 00:12:03,08
+and lifts, elevators, stairs, et cetera.
+
+291
+00:12:03,08 --> 00:12:04,06
+And what we want to do
+
+292
+00:12:04,06 --> 00:12:06,06
+is just kind of separate that out a little bit
+
+293
+00:12:06,06 --> 00:12:09,02
+so it's kind of like a little bit of a separation wall.
+
+294
+00:12:09,02 --> 00:12:11,07
+I'll zoom back in again now.
+
+295
+00:12:11,07 --> 00:12:13,06
+Now what we need to do to give that thickness,
+
+296
+00:12:13,06 --> 00:12:15,05
+is we need to offset it.
+
+297
+00:12:15,05 --> 00:12:18,08
+Now we can unpin the Draw panel.
+
+298
+00:12:18,08 --> 00:12:21,09
+I'm going to go to Offset here on the Modify panel.
+
+299
+00:12:21,09 --> 00:12:24,03
+So I click on Offset,
+
+300
+00:12:24,03 --> 00:12:25,07
+come into the drawing area
+
+301
+00:12:25,07 --> 00:12:27,02
+and you'll remember the thickness of the wall
+
+302
+00:12:27,02 --> 00:12:29,01
+was 120 we decided on.
+
+303
+00:12:29,01 --> 00:12:33,08
+So I press Enter after putting in that 120 offset distance.
+
+304
+00:12:33,08 --> 00:12:37,03
+I then select my spline that I've drawn, click on it,
+
+305
+00:12:37,03 --> 00:12:40,04
+move downwards for offset direction
+
+306
+00:12:40,04 --> 00:12:43,02
+and left click again to confirm that direction.
+
+307
+00:12:43,02 --> 00:12:45,00
+Press Enter to finish,
+
+308
+00:12:45,00 --> 00:12:48,05
+and you can see now that we've got a nice curvy wall
+
+309
+00:12:48,05 --> 00:12:51,05
+that is 120 millimeters thick.
+
+310
+00:12:51,05 --> 00:12:53,06
+Now it does need a little bit of tidying up.
+
+311
+00:12:53,06 --> 00:12:56,08
+So what we're going to do, we're going to zoom in on this end,
+
+312
+00:12:56,08 --> 00:12:59,00
+use the Line command
+
+313
+00:12:59,00 --> 00:13:03,02
+and just go endpoint, left click, to endpoint, left click.
+
+314
+00:13:03,02 --> 00:13:04,02
+Enter to finish.
+
+315
+00:13:04,02 --> 00:13:06,02
+That closes off the wall.
+
+316
+00:13:06,02 --> 00:13:07,05
+And then if we just do a little bit
+
+317
+00:13:07,05 --> 00:13:10,04
+of zooming and panning and zoom in here,
+
+318
+00:13:10,04 --> 00:13:11,07
+you can see we've got a little bit of a gap.
+
+319
+00:13:11,07 --> 00:13:14,03
+So if I go up to the Modify panel again,
+
+320
+00:13:14,03 --> 00:13:16,07
+click on this little flyout here next to Trim
+
+321
+00:13:16,07 --> 00:13:19,01
+and select Extend.
+
+322
+00:13:19,01 --> 00:13:22,08
+I can then click on the end of that there and click.
+
+323
+00:13:22,08 --> 00:13:24,03
+Enter to confirm
+
+324
+00:13:24,03 --> 00:13:25,09
+and we've extended that to the wall.
+
+325
+00:13:25,09 --> 00:13:27,05
+So if I zoom out now,
+
+326
+00:13:27,05 --> 00:13:29,02
+you can see that looks like it's fixed
+
+327
+00:13:29,02 --> 00:13:31,08
+to the corner of this wall here.
+
+328
+00:13:31,08 --> 00:13:33,00
+So that Extend command,
+
+329
+00:13:33,00 --> 00:13:34,03
+we look at that in more detail
+
+330
+00:13:34,03 --> 00:13:36,06
+in the AutoCAD Essential Training course,
+
+331
+00:13:36,06 --> 00:13:37,06
+by the way, as well.
+
+332
+00:13:37,06 --> 00:13:39,06
+I'm just giving you a little bit of a taster of it here
+
+333
+00:13:39,06 --> 00:13:41,07
+in the Learning AutoCAD course.
+
+334
+00:13:41,07 --> 00:13:44,08
+Last but not least, we're going to do Match Properties.
+
+335
+00:13:44,08 --> 00:13:47,05
+Now this is again on the Home tab on the ribbon.
+
+336
+00:13:47,05 --> 00:13:49,00
+It's in the Properties panel here
+
+337
+00:13:49,00 --> 00:13:51,09
+and you click on Match Properties.
+
+338
+00:13:51,09 --> 00:13:53,09
+I'm going to select one of these lines here
+
+339
+00:13:53,09 --> 00:13:55,04
+that forms the wall.
+
+340
+00:13:55,04 --> 00:13:57,09
+That's my source object.
+
+341
+00:13:57,09 --> 00:14:02,02
+I'm then going to select one and two
+
+342
+00:14:02,02 --> 00:14:04,03
+and the little line there, three.
+
+343
+00:14:04,03 --> 00:14:05,07
+Press Enter to finish.
+
+344
+00:14:05,07 --> 00:14:07,05
+And that's now all on the right leg
+
+345
+00:14:07,05 --> 00:14:09,06
+'cause we've matched the properties of the wall
+
+346
+00:14:09,06 --> 00:14:12,03
+to the splines and the little short line
+
+347
+00:14:12,03 --> 00:14:13,08
+that we drew earlier.
+
+348
+00:14:13,08 --> 00:14:15,04
+So if I zoom out now,
+
+349
+00:14:15,04 --> 00:14:19,01
+you can see not only do we have a nice curvy separation wall
+
+350
+00:14:19,01 --> 00:14:21,03
+for our little atrium area here,
+
+351
+00:14:21,03 --> 00:14:24,00
+but we've got a nice rectangular table there
+
+352
+00:14:24,00 --> 00:14:27,02
+using a polyline with a hexagonal insert
+
+353
+00:14:27,02 --> 00:14:28,09
+using a polygon as well.
+
+354
+00:14:28,09 --> 00:14:31,08
+So we've covered polylines, polygons,
+
+355
+00:14:31,08 --> 00:14:35,00
+and splines in this particular video.
+

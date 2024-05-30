@@ -8,6 +8,10 @@
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
     </PropertyGroup>
+    
+    <PropertyGroup>
+        <CodeAnalysisRuleSet>../../SolutionItems/CodeAnalysis.ruleset</CodeAnalysisRuleSet>
+    </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="coverlet.collector" Version="6.0.0"/>
@@ -23,6 +27,25 @@
 
     <ItemGroup>
         <Using Include="NUnit.Framework"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\TextForge.Business\TextForge.Business.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="Resources\testFile.srt" />
+        <EmbeddedResource Include="Resources\testFile.srt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </EmbeddedResource>
+        <None Remove="Resources\testFile2.srt" />
+        <EmbeddedResource Include="Resources\testFile2.srt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </EmbeddedResource>
+        <None Remove="Resources\TestFiles\testFile3.srt" />
+        <EmbeddedResource Include="Resources\TestFiles\testFile3.srt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </EmbeddedResource>
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,852 @@
+1
+00:00:00,05 --> 00:00:04,02
+- [Lecturer] We're staying in our interface dot DWG file.
+
+2
+00:00:04,02 --> 00:00:07,02
+And in this particular video, we're going to take a look
+
+3
+00:00:07,02 --> 00:00:11,07
+at the ribbon and ribbon panels in more detail.
+
+4
+00:00:11,07 --> 00:00:13,09
+Now, you can't miss the ribbon in AutoCAD.
+
+5
+00:00:13,09 --> 00:00:16,02
+It's that big long strip at the top
+
+6
+00:00:16,02 --> 00:00:18,03
+of the screen there with all the icons on it.
+
+7
+00:00:18,03 --> 00:00:19,08
+So when you've got a drawing open,
+
+8
+00:00:19,08 --> 00:00:22,00
+all of those icons become available.
+
+9
+00:00:22,00 --> 00:00:22,08
+They're not grayed out.
+
+10
+00:00:22,08 --> 00:00:24,08
+It means you can work on your drawing,
+
+11
+00:00:24,08 --> 00:00:27,07
+and obviously generate your designs within AutoCAD.
+
+12
+00:00:27,07 --> 00:00:30,07
+So what I want to show you is how all of these ribbon tabs,
+
+13
+00:00:30,07 --> 00:00:32,02
+ribbon panels, and things work.
+
+14
+00:00:32,02 --> 00:00:34,07
+So in the ribbon, by default,
+
+15
+00:00:34,07 --> 00:00:38,06
+you normally start in the home tab right here, top left.
+
+16
+00:00:38,06 --> 00:00:40,01
+And as I click on these tabs,
+
+17
+00:00:40,01 --> 00:00:43,03
+can you see the ribbon changes each time?
+
+18
+00:00:43,03 --> 00:00:45,07
+So we've got a different theme for each tab.
+
+19
+00:00:45,07 --> 00:00:48,03
+So the home tab, the insert tab,
+
+20
+00:00:48,03 --> 00:00:51,00
+the annotate tab, the parametric tab.
+
+21
+00:00:51,00 --> 00:00:53,04
+Now if you are using AutoCAD LT,
+
+22
+00:00:53,04 --> 00:00:55,05
+which is the light version of AutoCAD,
+
+23
+00:00:55,05 --> 00:00:56,09
+your ribbon may look different.
+
+24
+00:00:56,09 --> 00:00:58,08
+You will have less commands on it
+
+25
+00:00:58,08 --> 00:01:00,03
+because it's the light version
+
+26
+00:01:00,03 --> 00:01:03,03
+of the full version of AutoCAD, just so you know.
+
+27
+00:01:03,03 --> 00:01:05,05
+But you can see there that if I go to output,
+
+28
+00:01:05,05 --> 00:01:07,02
+I can plot, I can batch plot.
+
+29
+00:01:07,02 --> 00:01:09,08
+That's the whole idea of those ribbon tabs.
+
+30
+00:01:09,08 --> 00:01:13,03
+Now let's go back to that home tab on the ribbon.
+
+31
+00:01:13,03 --> 00:01:17,01
+Now these ribbon tabs are basically themes.
+
+32
+00:01:17,01 --> 00:01:19,04
+So you can see in the home tab on the ribbon,
+
+33
+00:01:19,04 --> 00:01:21,00
+we've got ribbon panels
+
+34
+00:01:21,00 --> 00:01:27,00
+such as draw, modify, annotation, layers, and so on.
+
+35
+00:01:27,00 --> 00:01:29,01
+Now there is a bit of repetition here.
+
+36
+00:01:29,01 --> 00:01:31,01
+You'll notice you've got the annotation panel
+
+37
+00:01:31,01 --> 00:01:32,05
+there on the home tab.
+
+38
+00:01:32,05 --> 00:01:34,06
+If you go to the annotate tab,
+
+39
+00:01:34,06 --> 00:01:37,04
+you've got even more annotation tools.
+
+40
+00:01:37,04 --> 00:01:40,00
+So there is repetition of the same commands
+
+41
+00:01:40,00 --> 00:01:42,05
+in different panels on the ribbon.
+
+42
+00:01:42,05 --> 00:01:44,05
+I'm going to go back to the home tab now.
+
+43
+00:01:44,05 --> 00:01:46,02
+Now you'll notice on the ribbon,
+
+44
+00:01:46,02 --> 00:01:48,06
+there's lots of little white triangles.
+
+45
+00:01:48,06 --> 00:01:51,00
+They're known as flyout tabs.
+
+46
+00:01:51,00 --> 00:01:53,07
+So if I go underneath the circle command and click on
+
+47
+00:01:53,07 --> 00:01:56,01
+the little flyout tab there, see the little triangle,
+
+48
+00:01:56,01 --> 00:01:58,03
+it'll show me all the different types
+
+49
+00:01:58,03 --> 00:02:00,04
+of circle commands available
+
+50
+00:02:00,04 --> 00:02:02,09
+on that draw panel on the ribbon.
+
+51
+00:02:02,09 --> 00:02:04,05
+It's the same with the art command.
+
+52
+00:02:04,05 --> 00:02:05,03
+You'll notice it.
+
+53
+00:02:05,03 --> 00:02:08,02
+There's all the different permutations and combinations
+
+54
+00:02:08,02 --> 00:02:10,00
+of the art command that you can use
+
+55
+00:02:10,00 --> 00:02:13,03
+in that draw panel on the ribbon.
+
+56
+00:02:13,03 --> 00:02:14,05
+Now that's incredibly useful
+
+57
+00:02:14,05 --> 00:02:16,01
+because I can hover over any of these.
+
+58
+00:02:16,01 --> 00:02:19,02
+Look, you see you've got rectangle, polygon and so on.
+
+59
+00:02:19,02 --> 00:02:23,07
+And the benefit is, is if I clicked on say, polygon there,
+
+60
+00:02:23,07 --> 00:02:25,01
+you'll notice that it's asking me
+
+61
+00:02:25,01 --> 00:02:27,03
+from the number of sides of my polygon, et cetera.
+
+62
+00:02:27,03 --> 00:02:29,01
+But note on the ribbon,
+
+63
+00:02:29,01 --> 00:02:32,00
+it's now defaulted to the polygon command.
+
+64
+00:02:32,00 --> 00:02:34,01
+So if I hit escape now a couple of times
+
+65
+00:02:34,01 --> 00:02:36,01
+and just cancel that polygon command,
+
+66
+00:02:36,01 --> 00:02:37,02
+next time I go up there,
+
+67
+00:02:37,02 --> 00:02:39,02
+can you see it's now set to polygon?
+
+68
+00:02:39,02 --> 00:02:40,09
+To get back to the rectangle command,
+
+69
+00:02:40,09 --> 00:02:43,06
+I just simply click on the flyout, click on rectangle.
+
+70
+00:02:43,06 --> 00:02:46,06
+It's now asking for the first corner point, my rectangle.
+
+71
+00:02:46,06 --> 00:02:48,00
+I'll just hit escape a couple of times
+
+72
+00:02:48,00 --> 00:02:48,09
+to cancel the command.
+
+73
+00:02:48,09 --> 00:02:50,06
+Be aware of that in AutoCAD.
+
+74
+00:02:50,06 --> 00:02:53,00
+If ever you hit a command that you don't want to use,
+
+75
+00:02:53,00 --> 00:02:55,07
+just hit escape on the keyboard a couple of times.
+
+76
+00:02:55,07 --> 00:02:58,01
+That cancels not only the command that you are using,
+
+77
+00:02:58,01 --> 00:03:00,09
+but any objects you might have selected as well.
+
+78
+00:03:00,09 --> 00:03:02,06
+So you're kind of back to square one,
+
+79
+00:03:02,06 --> 00:03:05,06
+and you can go back to the command you want to use.
+
+80
+00:03:05,06 --> 00:03:09,04
+Now these ribbon panels are incredibly useful,
+
+81
+00:03:09,04 --> 00:03:10,07
+as I've already shown you,
+
+82
+00:03:10,07 --> 00:03:12,07
+but there's some even more useful bits
+
+83
+00:03:12,07 --> 00:03:14,04
+in the ribbon panels as well.
+
+84
+00:03:14,04 --> 00:03:17,03
+So let's go to this little fly out here where it says draw.
+
+85
+00:03:17,03 --> 00:03:19,03
+If I click on that fly out there,
+
+86
+00:03:19,03 --> 00:03:21,09
+you'll notice there's even more commands available
+
+87
+00:03:21,09 --> 00:03:23,01
+in the draw panel.
+
+88
+00:03:23,01 --> 00:03:25,05
+So there's all these different commands in here as well.
+
+89
+00:03:25,05 --> 00:03:30,04
+Things such as splines, construction lines and so on.
+
+90
+00:03:30,04 --> 00:03:32,05
+But if I move away from that,
+
+91
+00:03:32,05 --> 00:03:35,01
+it disappears back into the ribbon again.
+
+92
+00:03:35,01 --> 00:03:37,01
+Now you may find that a little bit annoying,
+
+93
+00:03:37,01 --> 00:03:39,01
+especially if you want to use those commands
+
+94
+00:03:39,01 --> 00:03:42,04
+in the extended flyout part of the ribbon panel.
+
+95
+00:03:42,04 --> 00:03:45,06
+So all you do is you click on the little flyout arrow,
+
+96
+00:03:45,06 --> 00:03:48,07
+click on the little pin there, and that pins it open.
+
+97
+00:03:48,07 --> 00:03:50,09
+So that one now stay open
+
+98
+00:03:50,09 --> 00:03:55,01
+until you go to a different ribbon tab.
+
+99
+00:03:55,01 --> 00:03:57,09
+To unpin it, you simply click on the little blue square
+
+100
+00:03:57,09 --> 00:03:59,03
+where the pin is,
+
+101
+00:03:59,03 --> 00:04:02,05
+and it floats back into the ribbon again.
+
+102
+00:04:02,05 --> 00:04:04,08
+Really, really useful, quick and easy,
+
+103
+00:04:04,08 --> 00:04:06,08
+and it just allows you to utilize
+
+104
+00:04:06,08 --> 00:04:09,01
+all of the icons in that ribbon panel.
+
+105
+00:04:09,01 --> 00:04:12,03
+So modify, if I click there, and click on the pin,
+
+106
+00:04:12,03 --> 00:04:13,09
+you'll notice there that you can see
+
+107
+00:04:13,09 --> 00:04:17,02
+that obviously my modify commands are now there
+
+108
+00:04:17,02 --> 00:04:19,07
+on the screen, ready for me to use.
+
+109
+00:04:19,07 --> 00:04:21,08
+When I want them to go back into the ribbon,
+
+110
+00:04:21,08 --> 00:04:25,03
+I just unpin accordingly, like so.
+
+111
+00:04:25,03 --> 00:04:28,07
+Now I just want to take you through one more clever thing
+
+112
+00:04:28,07 --> 00:04:30,09
+on the ribbon with the ribbon panels,
+
+113
+00:04:30,09 --> 00:04:33,02
+and these are known as sticky panels.
+
+114
+00:04:33,02 --> 00:04:35,04
+Now I love these because I work
+
+115
+00:04:35,04 --> 00:04:39,09
+on a multiple monitor environment in my office here at home.
+
+116
+00:04:39,09 --> 00:04:44,01
+So what I want to do is have my sticky panels perhaps
+
+117
+00:04:44,01 --> 00:04:46,00
+on a different monitor, while I'm working
+
+118
+00:04:46,00 --> 00:04:47,04
+on my drawing on a different screen.
+
+119
+00:04:47,04 --> 00:04:49,08
+Now I can't do it while I'm recording the videos for you,
+
+120
+00:04:49,08 --> 00:04:52,02
+'cause it's all on the one monitor, on the one screen.
+
+121
+00:04:52,02 --> 00:04:53,09
+But here's where it gets clever.
+
+122
+00:04:53,09 --> 00:04:57,00
+If I click and hold on the title bar
+
+123
+00:04:57,00 --> 00:04:59,07
+of the drawing panel, and drag it down,
+
+124
+00:04:59,07 --> 00:05:03,00
+you'll notice when I release after I've dragged it down here
+
+125
+00:05:03,00 --> 00:05:05,08
+into the drawing area, it just drops it straight
+
+126
+00:05:05,08 --> 00:05:06,09
+into the drawing area.
+
+127
+00:05:06,09 --> 00:05:08,08
+You'll notice that the ribbon is updated.
+
+128
+00:05:08,08 --> 00:05:12,07
+So modify now is the left most ribbon panel
+
+129
+00:05:12,07 --> 00:05:15,06
+in the home tab on the ribbon.
+
+130
+00:05:15,06 --> 00:05:18,01
+Now this is great because it means now
+
+131
+00:05:18,01 --> 00:05:20,01
+that I can go to a different tab
+
+132
+00:05:20,01 --> 00:05:22,07
+and still have my draw tools available.
+
+133
+00:05:22,07 --> 00:05:26,07
+So for example, let's make my current ribbon tab annotate.
+
+134
+00:05:26,07 --> 00:05:28,06
+So now I can work on the annotation,
+
+135
+00:05:28,06 --> 00:05:32,01
+perhaps some dimensions, perhaps some labels on the drawing,
+
+136
+00:05:32,01 --> 00:05:35,04
+but I still got all my draw tools ready to go,
+
+137
+00:05:35,04 --> 00:05:38,01
+and if I hover over them, I can use them just as I would
+
+138
+00:05:38,01 --> 00:05:40,02
+in the ribbon at the top of the screen.
+
+139
+00:05:40,02 --> 00:05:41,02
+Very quick and easy.
+
+140
+00:05:41,02 --> 00:05:42,06
+If I click there on the flyout,
+
+141
+00:05:42,06 --> 00:05:44,04
+there's all my circle commands,
+
+142
+00:05:44,04 --> 00:05:46,00
+click there on the arc flyout ones,
+
+143
+00:05:46,00 --> 00:05:49,04
+there's all my arc commands like I showed you a moment ago.
+
+144
+00:05:49,04 --> 00:05:52,09
+So that's now floating out in the drawing area.
+
+145
+00:05:52,09 --> 00:05:55,05
+It's known as a sticky panel.
+
+146
+00:05:55,05 --> 00:05:56,04
+But here's the thing,
+
+147
+00:05:56,04 --> 00:05:59,02
+how do I get that back into the ribbon
+
+148
+00:05:59,02 --> 00:06:00,01
+now it's floating around?
+
+149
+00:06:00,01 --> 00:06:01,07
+I might want it to go back.
+
+150
+00:06:01,07 --> 00:06:04,01
+Well, all you do is you hover over the sticky panel,
+
+151
+00:06:04,01 --> 00:06:05,02
+the floating panel.
+
+152
+00:06:05,02 --> 00:06:07,09
+Can you see there's a little sort of T-shaped icon?
+
+153
+00:06:07,09 --> 00:06:12,06
+If you hover over that, it says return panels to ribbon.
+
+154
+00:06:12,06 --> 00:06:14,01
+But hold that thought.
+
+155
+00:06:14,01 --> 00:06:17,05
+I'm in the annotate tab on the ribbon.
+
+156
+00:06:17,05 --> 00:06:20,02
+Won't that return the panel to the annotate tab
+
+157
+00:06:20,02 --> 00:06:22,06
+on the ribbon instead of the home tab on the ribbon?
+
+158
+00:06:22,06 --> 00:06:24,05
+Well, why don't you try this?
+
+159
+00:06:24,05 --> 00:06:26,04
+Get that sticky panel on the screen,
+
+160
+00:06:26,04 --> 00:06:28,06
+like I've got it, and then hover over it
+
+161
+00:06:28,06 --> 00:06:30,06
+and click on that little T-shaped icon there,
+
+162
+00:06:30,06 --> 00:06:32,04
+return panels to ribbon.
+
+163
+00:06:32,04 --> 00:06:35,04
+Now the draw panel has returned to the ribbon,
+
+164
+00:06:35,04 --> 00:06:37,06
+but here's where AutoCAD's really clever.
+
+165
+00:06:37,06 --> 00:06:39,09
+It hasn't put it in the annotate tab on the ribbon.
+
+166
+00:06:39,09 --> 00:06:41,08
+If you go back to the home tab on the ribbon,
+
+167
+00:06:41,08 --> 00:06:43,08
+it's back where it was before,
+
+168
+00:06:43,08 --> 00:06:47,01
+in front of the modified panel there on the ribbon.
+
+169
+00:06:47,01 --> 00:06:49,03
+Very quick and easy.
+
+170
+00:06:49,03 --> 00:06:50,09
+Now, those sticky panels are great
+
+171
+00:06:50,09 --> 00:06:54,02
+if you need a ribbon panel from one ribbon tab
+
+172
+00:06:54,02 --> 00:06:55,03
+to be on the screen
+
+173
+00:06:55,03 --> 00:06:58,02
+while you're in another ribbon tab doing something else.
+
+174
+00:06:58,02 --> 00:06:59,07
+Very, very useful.
+
+175
+00:06:59,07 --> 00:07:04,02
+Now, I just want to take you through one more ribbon setting.
+
+176
+00:07:04,02 --> 00:07:07,05
+And for new users, when you've never used AutoCAD before,
+
+177
+00:07:07,05 --> 00:07:09,05
+it can completely freak you out.
+
+178
+00:07:09,05 --> 00:07:12,07
+Trust me, I've been in many, many AutoCAD classes
+
+179
+00:07:12,07 --> 00:07:15,00
+where a new user will click on this button,
+
+180
+00:07:15,00 --> 00:07:16,07
+and they'll suddenly go, "what have I done?
+
+181
+00:07:16,07 --> 00:07:18,01
+Have I broken AutoCAD?"
+
+182
+00:07:18,01 --> 00:07:19,09
+You haven't broken AutoCAD.
+
+183
+00:07:19,09 --> 00:07:22,04
+It's this little white one up here.
+
+184
+00:07:22,04 --> 00:07:23,03
+Can you see it?
+
+185
+00:07:23,03 --> 00:07:25,05
+It's a little white button with an arrow.
+
+186
+00:07:25,05 --> 00:07:28,03
+Now it says minimize to panel buttons.
+
+187
+00:07:28,03 --> 00:07:31,07
+Now if I click on it, you'll see what happens.
+
+188
+00:07:31,07 --> 00:07:33,09
+The ribbon changes and it's like, what have I done?
+
+189
+00:07:33,09 --> 00:07:35,04
+Have I broken AutoCAD?
+
+190
+00:07:35,04 --> 00:07:40,04
+No. All you've done is you've set up a different setup
+
+191
+00:07:40,04 --> 00:07:42,03
+for the AutoCAD ribbon.
+
+192
+00:07:42,03 --> 00:07:43,02
+That's all you've done.
+
+193
+00:07:43,02 --> 00:07:45,04
+It's a different appearance for the ribbon,
+
+194
+00:07:45,04 --> 00:07:47,00
+and you've got four different settings.
+
+195
+00:07:47,00 --> 00:07:48,00
+So this is the first one.
+
+196
+00:07:48,00 --> 00:07:50,02
+If I click on that little white button again,
+
+197
+00:07:50,02 --> 00:07:51,03
+there's the next one.
+
+198
+00:07:51,03 --> 00:07:52,05
+Where if I hover over these,
+
+199
+00:07:52,05 --> 00:07:54,02
+can you see there's my panels?
+
+200
+00:07:54,02 --> 00:07:56,03
+And then if I click on it a third time,
+
+201
+00:07:56,03 --> 00:07:59,01
+it disappears completely and all I've got is the tabs.
+
+202
+00:07:59,01 --> 00:08:00,01
+But if I click on the tabs,
+
+203
+00:08:00,01 --> 00:08:01,06
+you'll see there's all the information there.
+
+204
+00:08:01,06 --> 00:08:03,09
+when I move away, it disappears.
+
+205
+00:08:03,09 --> 00:08:05,01
+So last but not least,
+
+206
+00:08:05,01 --> 00:08:07,06
+all I've got to do now is click on that little white button
+
+207
+00:08:07,06 --> 00:08:11,06
+a fourth time, takes me back to the default ribbon settings,
+
+208
+00:08:11,06 --> 00:08:12,09
+as you can see.
+
+209
+00:08:12,09 --> 00:08:15,06
+So don't be afraid if you click on
+
+210
+00:08:15,06 --> 00:08:17,09
+that little white arrow button there by mistake.
+
+211
+00:08:17,09 --> 00:08:19,03
+Just keep clicking.
+
+212
+00:08:19,03 --> 00:08:21,07
+And on that fourth click, so to speak,
+
+213
+00:08:21,07 --> 00:08:25,00
+you'll be back to your default ribbon settings.
+
