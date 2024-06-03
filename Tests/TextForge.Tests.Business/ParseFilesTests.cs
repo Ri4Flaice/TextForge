@@ -8,9 +8,9 @@ namespace TextForge.Tests.Business;
 /// </summary>
 public class ParseFilesTests
 {
-    private ParseFiles _parseFiles;
     private string _pathDirectory;
     private string _finalResultPath;
+    private List<string> _files;
 
     /// <summary>
     /// Test settings.
@@ -21,8 +21,7 @@ public class ParseFilesTests
         _pathDirectory = GetDirectoryExpressions.GetDirectoryPath();
         _finalResultPath = GetDirectoryExpressions.GetFinalResultTxtPath();
 
-        var files = GetFiles.GetAllFilesInDirectory(_pathDirectory);
-        _parseFiles = new ParseFiles(files);
+        _files = GetFiles.GetAllFilesInDirectory(_pathDirectory);
 
         if (File.Exists(_finalResultPath))
         {
@@ -37,7 +36,7 @@ public class ParseFilesTests
     public void ParseFilesTest()
     {
         // Arrange
-        _parseFiles.ParseAllFilesForTests();
+        ParseFiles.ParseAllFilesForTests(_files);
 
         // Act
         var finalResultContent = File.ReadAllText(_finalResultPath);

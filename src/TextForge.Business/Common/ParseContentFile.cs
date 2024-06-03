@@ -1,4 +1,5 @@
 ﻿using System.Text.RegularExpressions;
+
 using TextForge.Core;
 
 namespace TextForge.Business.Common;

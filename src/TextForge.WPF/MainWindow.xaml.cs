@@ -62,9 +62,8 @@ public partial class MainWindow
         await Task.Run(() =>
         {
             var allFiles = GetFiles.GetAllFilesInDirectory(Properties.Settings.Default.SourceFilePath);
-            var parseFiles = new ParseFiles(allFiles);
 
-            parseFiles.ParseAllFiles(Properties.Settings.Default.FinalFilePath);
+            ParseFiles.ParseAllFiles(allFiles, Properties.Settings.Default.FinalFilePath);
         });
     }
 
@@ -83,9 +82,8 @@ public partial class MainWindow
             await Task.Run(() =>
             {
                 var allFiles = GetFiles.GetAllFilesInDirectory(Properties.Settings.Default.SourceFilePath);
-                var parseFiles = new ParseFiles(allFiles);
 
-                parseFiles.ParseAllFiles(Properties.Settings.Default.FinalFilePath);
+                ParseFiles.ParseAllFiles(allFiles, Properties.Settings.Default.FinalFilePath);
             });
         }
     }
