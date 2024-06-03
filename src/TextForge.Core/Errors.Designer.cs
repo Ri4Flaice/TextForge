@@ -73,7 +73,7 @@ namespace TextForge.Core {
         /// </summary>
         public static string TF0404 {
             get {
-                return ResourceManager.GetString("TF0400", resourceCulture);
+                return ResourceManager.GetString("TF0404", resourceCulture);
             }
         }
 

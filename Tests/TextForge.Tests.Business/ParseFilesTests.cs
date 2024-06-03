@@ -37,7 +37,7 @@ public class ParseFilesTests
     public void ParseFilesTest()
     {
         // Arrange
-        _parseFiles.ParseAllFiles();
+        _parseFiles.ParseAllFilesForTests();
 
         // Act
         var finalResultContent = File.ReadAllText(_finalResultPath);

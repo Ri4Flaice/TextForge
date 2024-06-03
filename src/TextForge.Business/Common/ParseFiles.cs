@@ -19,9 +19,9 @@ public class ParseFiles
     }
 
     /// <summary>
-    /// Parse all files in list.
+    /// Parse all files in list for tests.
     /// </summary>
-    public void ParseAllFiles()
+    public void ParseAllFilesForTests()
     {
         try
         {
@@ -30,6 +30,27 @@ public class ParseFiles
             foreach (var parsedContent in _files.Select(File.ReadAllText).Select(ParseContentFile.ParseContent))
             {
                 File.AppendAllText(finalResult, parsedContent);
+            }
+        }
+        catch (Exception e)
+        {
+            var logs = new Logs(e, nameof(Errors.TF0500), Errors.TF0500);
+            logs.WriteErrorInLogs();
+            throw;
+        }
+    }
+
+    /// <summary>
+    /// Parse all files in list.
+    /// </summary>
+    /// <param name="finalFilePath">File path, where saved final file.</param>
+    public void ParseAllFiles(string finalFilePath)
+    {
+        try
+        {
+            foreach (var parsedContent in _files.Select(File.ReadAllText).Select(ParseContentFile.ParseContent))
+            {
+                File.WriteAllText(Path.Combine(finalFilePath, "result.txt"), parsedContent);
             }
         }
         catch (Exception e)

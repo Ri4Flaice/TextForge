@@ -3,7 +3,7 @@ using System.Windows;
 
 using Microsoft.Win32;
 
-using TextForge.Core;
+using TextForge.Business.Common;
 
 namespace TextForge.WPF;
 
@@ -18,7 +18,6 @@ public partial class MainWindow
     public MainWindow()
     {
         InitializeComponent();
-        MessageBox.Show($"{Properties.Settings.Default.SourceFilePath}; {Properties.Settings.Default.FinalFilePath}");
     }
 
     /// <summary>
@@ -32,8 +31,7 @@ public partial class MainWindow
 
         if (folderDialog.ShowDialog() != true)
         {
-            var logs = new Logs(nameof(Errors.TF0305), Errors.TF0305);
-            logs.WriteErrorInLogs();
+            return;
         }
 
         var selectedFilePath = folderDialog.FolderName;
@@ -53,14 +51,18 @@ public partial class MainWindow
 
         if (folderDialog.ShowDialog() != true)
         {
-            var logs = new Logs(nameof(Errors.TF0305), Errors.TF0305);
-            logs.WriteErrorInLogs();
+            return;
         }
 
         var selectedFilePath = folderDialog.FolderName;
 
         Properties.Settings.Default.SourceFilePath = selectedFilePath;
         Properties.Settings.Default.Save();
+
+        var allFiles = GetFiles.GetAllFilesInDirectory(Properties.Settings.Default.SourceFilePath);
+        var parseFiles = new ParseFiles(allFiles);
+
+        parseFiles.ParseAllFiles(Properties.Settings.Default.FinalFilePath);
     }
 
     /// <summary>
@@ -74,8 +76,11 @@ public partial class MainWindow
         {
             Properties.Settings.Default.SourceFilePath = folders[0];
             Properties.Settings.Default.Save();
-        }
 
-        MessageBox.Show(Properties.Settings.Default.SourceFilePath);
+            var allFiles = GetFiles.GetAllFilesInDirectory(Properties.Settings.Default.SourceFilePath);
+            var parseFiles = new ParseFiles(allFiles);
+
+            parseFiles.ParseAllFiles(Properties.Settings.Default.FinalFilePath);
+        }
     }
 }

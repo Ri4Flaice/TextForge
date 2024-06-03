@@ -20,6 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\TextForge.Business\TextForge.Business.csproj" />
       <ProjectReference Include="..\TextForge.Core\TextForge.Core.csproj" />
     </ItemGroup>
 
