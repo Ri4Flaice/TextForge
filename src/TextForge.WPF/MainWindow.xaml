@@ -3,10 +3,29 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:TextForge.WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="500">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBlock Text="Choose path for final file: " Margin="5,10,5,0"
+                       Background="Transparent" FontSize="14" Height="30" TextAlignment="Center"></TextBlock>
+            <Button Name="ChooseFinalFile" Content="Choose path" Click="ChooseFinalFile_OnClick"
+                    Height="30" Width="100" Margin="5,5,0,0"
+                    Background="Transparent" FontSize="14"
+                    Cursor="Hand"></Button>
+        </StackPanel>
+        
+        <Grid Grid.Row="1">
+            <Button Name="ChooseSourceFile" Content="Choose file" Click="ChooseSourceFile_OnClick"
+                    AllowDrop="True" Drop="ChooseSourceFile_OnDrop"
+                    Margin="5" BorderThickness="0" FontSize="14" Cursor="Hand"
+                    VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                    Style="{StaticResource NoHoverButtonStyle}"/>
+        </Grid>
     </Grid>
 </Window>

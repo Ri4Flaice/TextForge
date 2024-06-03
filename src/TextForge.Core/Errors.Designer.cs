@@ -76,5 +76,14 @@ namespace TextForge.Core {
                 return ResourceManager.GetString("TF0400", resourceCulture);
             }
         }
+
+        /// <summary>
+        /// Error when choosing the path to save the final file..
+        /// </summary>
+        public static string TF0305 {
+            get {
+                return ResourceManager.GetString("TF0305", resourceCulture);
+            }
+        }
     }
 }
