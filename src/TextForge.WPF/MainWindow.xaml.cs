@@ -8,7 +8,7 @@ using TextForge.Business.Common;
 namespace TextForge.WPF;
 
 /// <summary>
-/// Interaction logic for MainWindow.xaml
+/// Interaction logic for MainWindow.xaml.
 /// </summary>
 public partial class MainWindow
 {
@@ -45,7 +45,7 @@ public partial class MainWindow
     /// </summary>
     /// <param name="sender">Object, trigger event.</param>
     /// <param name="e">Event arguments.</param>
-    private void ChooseSourceFile_OnClick(object sender, RoutedEventArgs e)
+    private async void ChooseSourceFile_OnClick(object sender, RoutedEventArgs e)
     {
         var folderDialog = new OpenFolderDialog();
 
@@ -59,10 +59,13 @@ public partial class MainWindow
         Properties.Settings.Default.SourceFilePath = selectedFilePath;
         Properties.Settings.Default.Save();
 
-        var allFiles = GetFiles.GetAllFilesInDirectory(Properties.Settings.Default.SourceFilePath);
-        var parseFiles = new ParseFiles(allFiles);
+        await Task.Run(() =>
+        {
+            var allFiles = GetFiles.GetAllFilesInDirectory(Properties.Settings.Default.SourceFilePath);
+            var parseFiles = new ParseFiles(allFiles);
 
-        parseFiles.ParseAllFiles(Properties.Settings.Default.FinalFilePath);
+            parseFiles.ParseAllFiles(Properties.Settings.Default.FinalFilePath);
+        });
     }
 
     /// <summary>
@@ -70,17 +73,20 @@ public partial class MainWindow
     /// </summary>
     /// <param name="sender">Object, trigger event.</param>
     /// <param name="e">Event arguments.</param>
-    private void ChooseSourceFile_OnDrop(object sender, DragEventArgs e)
+    private async void ChooseSourceFile_OnDrop(object sender, DragEventArgs e)
     {
         if (e.Data.GetData(DataFormats.FileDrop) is string[] { Length: 1 } folders && Directory.Exists(folders[0]))
         {
             Properties.Settings.Default.SourceFilePath = folders[0];
             Properties.Settings.Default.Save();
 
-            var allFiles = GetFiles.GetAllFilesInDirectory(Properties.Settings.Default.SourceFilePath);
-            var parseFiles = new ParseFiles(allFiles);
+            await Task.Run(() =>
+            {
+                var allFiles = GetFiles.GetAllFilesInDirectory(Properties.Settings.Default.SourceFilePath);
+                var parseFiles = new ParseFiles(allFiles);
 
-            parseFiles.ParseAllFiles(Properties.Settings.Default.FinalFilePath);
+                parseFiles.ParseAllFiles(Properties.Settings.Default.FinalFilePath);
+            });
         }
     }
 }
