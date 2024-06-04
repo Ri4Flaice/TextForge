@@ -1,4 +1,6 @@
-﻿using TextForge.Core;
+﻿using System.Text;
+
+using TextForge.Core;
 
 namespace TextForge.Business.Common;
 
@@ -39,10 +41,15 @@ public static class ParseFiles
     {
         try
         {
-            foreach (var parsedContent in files.Select(File.ReadAllText).Select(ParseContentFile.ParseContent))
+            var allContents = new StringBuilder();
+
+            foreach (var file in files)
             {
-                File.WriteAllText(Path.Combine(finalFilePath, "result.txt"), parsedContent);
+                allContents.AppendLine(File.ReadAllText(file));
             }
+
+            var parsedContent = ParseContentFile.ParseContent(allContents.ToString());
+            File.WriteAllText(Path.Combine(finalFilePath, "result.txt"), parsedContent);
         }
         catch (Exception e)
         {
