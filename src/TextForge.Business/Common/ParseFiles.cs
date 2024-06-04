@@ -19,10 +19,15 @@ public static class ParseFiles
         {
             var finalResult = GetDirectoryExpressions.GetFinalResultTxtPath();
 
-            foreach (var parsedContent in files.Select(File.ReadAllText).Select(ParseContentFile.ParseContent))
+            var allContents = new StringBuilder();
+
+            foreach (var file in files)
             {
-                File.AppendAllText(finalResult, parsedContent);
+                allContents.AppendLine(File.ReadAllText(file));
             }
+
+            var parsedContent = ParseContentFile.ParseContent(allContents.ToString());
+            File.WriteAllText(finalResult, parsedContent);
         }
         catch (Exception e)
         {

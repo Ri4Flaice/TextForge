@@ -7,7 +7,7 @@ namespace TextForge.Business.Common;
 /// <summary>
 /// Parse content file.
 /// </summary>
-public static class ParseContentFile
+public static partial class ParseContentFile
 {
     /// <summary>
     /// Parse content file.
@@ -18,10 +18,10 @@ public static class ParseContentFile
     {
         try
         {
-            content = Regex.Replace(content, @"^\d+\s+", string.Empty, RegexOptions.Multiline);
-            content = Regex.Replace(content, @"[\d:,->]+\s*-->\s*[\d:,->]+\s*", string.Empty);
+            content = DeleteNumbering().Replace(content, string.Empty);
+            content = DeleteTiming().Replace(content, string.Empty);
             content = content.Replace("\r\n", " ");
-            content = Regex.Replace(content, @"\s+", " ").Trim();
+            content = DeleteUnnecessarySpaces().Replace(content, " ").Trim();
         }
         catch (Exception e)
         {
@@ -32,4 +32,22 @@ public static class ParseContentFile
 
         return content;
     }
+
+    /// <summary>
+    /// Deleting all numbering in lines.
+    /// </summary>
+    [GeneratedRegex(@"^\d+\s+", RegexOptions.Multiline)]
+    private static partial Regex DeleteNumbering();
+
+    /// <summary>
+    /// Deleting all timings in rows.
+    /// </summary>
+    [GeneratedRegex(@"[\d:,->]+\s*-->\s*[\d:,->]+\s*")]
+    private static partial Regex DeleteTiming();
+
+    /// <summary>
+    /// Removing all unnecessary spaces in the lines.
+    /// </summary>
+    [GeneratedRegex(@"\s+")]
+    private static partial Regex DeleteUnnecessarySpaces();
 }
