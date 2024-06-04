@@ -15,10 +15,18 @@ This program allows you to extract the text of subtitles, removing unnecessary n
 ## Using
 1. Launch the TextForge application.
 2. Select the directory where the final file will be saved.
-![Screenshot]()
+
+<p align=center>
+  <img src="https://github.com/Ri4Flaice/TextForge/blob/develop/Screenshots/Select%20final%20file%20path.png" width=450 height=250>
+</p>
+
 3. Click the button at the bottom of the window or drag the directory there to start the file parsing process.
-![Screenshot]()
-4. After parsing is completed, a text document with the results will appear.
+
+<p align=center>
+  <img src="https://github.com/Ri4Flaice/TextForge/blob/develop/Screenshots/Start%20parsing%20process.png" width=450 height=250>
+</p>
+
+5. After parsing is completed, a text document with the results will appear.
 
 ## Languages and technologies
 - C#
